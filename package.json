@@ -1,10 +1,12 @@
 {
   "name": "gh-pinned-repos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "type": "module",
+  "description": "A Simple script to get pinned repos of a github user because github's rest api doesn't allow it.",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/prashantrahul141/gh-pinned-repos/issues"
   },
-  "homepage": "https://github.com/prashantrahul141/gh-pinned-repos#readme"
+  "homepage": "https://github.com/prashantrahul141/gh-pinned-repos#readme",
+  "dependencies": {
+    "jsdom": "^21.1.0"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^21.1.0",
+    "@types/node": "^18.14.6"
+  }
 }
