@@ -13,10 +13,10 @@ A simple script to get pinned repos of a github user because github's rest api d
 function `getPinnedRepos(params)`
 
 @params<br>
-username: string -> Username of the gh user.
+username: string -> Username of the github user.
 
 @returns<br>
-info: {owner: string, repo: string, url: string} -> Pinned repos.
+info: {owner: string, repo: string, url: string} -> Pinned repositories.
 
 <br>
 
